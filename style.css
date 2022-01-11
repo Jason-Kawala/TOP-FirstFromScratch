@@ -101,3 +101,10 @@ footer {
     align-items: center;
     color: white;
 }
+
+.lower {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}

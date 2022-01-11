@@ -1,0 +1,17 @@
+/* * {
+    border: 1px solid lightblue;
+} */
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.upper, .header {
+    background-color: #1F2937;
+}
+
+.title h1 {
+    font-weight:bolder;
+    font-size: 48px;
+}

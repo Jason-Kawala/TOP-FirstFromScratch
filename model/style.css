@@ -7,11 +7,26 @@
     flex-direction: column;
 }
 
-.upper, .header {
+.upper, .header, .footer {
     background-color: #1F2937;
 }
 
 .title h1 {
     font-weight:bolder;
     font-size: 48px;
+}
+
+.title h1, .logo {
+    color: #F9FAF8;
+}
+
+.links {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    text-decoration: none;
 }

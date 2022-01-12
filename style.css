@@ -23,11 +23,19 @@ body {
     display: flex;
 }
 
+.upper {
+    justify-content: center;
+    padding: 90px;
+    gap: 30px;
+    color:#E5E7EB;
+}
+
 .container {
     display: flex;
     gap: 20px;
     padding: 20px;
     padding-bottom: 50px;
+    align-items: center;
 }
 
 .middle h1 {
@@ -67,8 +75,9 @@ body {
 .title {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 250px;
 }
 .title-img {
     background-color: #E5E7EB;
@@ -76,9 +85,14 @@ body {
     text-align: center;
 }
 .title h1 {
-    font-weight:bolder;
+    font-weight:900;
     font-size: 48px;
     text-align: center;
+    margin: 0;
+}
+
+.title button {
+    align-self: center;
 }
 
 .title h1, .logo {
@@ -87,9 +101,16 @@ body {
 }
 
 .links, .logo {
-    font-size: 18px;
     color: #E5E7EB;
     text-decoration: none;
+}
+
+.links {
+    font-size: 18px;
+}
+
+.logo {
+    font-size: 24px;
 }
 
 ul {

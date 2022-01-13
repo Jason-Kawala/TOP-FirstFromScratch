@@ -170,6 +170,7 @@ footer {
     justify-content: center;
     align-items: center;
     flex: 1;
+    padding: 20px 40px;
 }
 
 .box {
@@ -179,4 +180,37 @@ footer {
 
 .caption {
     text-align: center;
+}
+
+.signup {
+    display: flex;
+    border: 1px solid #3882F6;
+    border-radius: 10px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    background-color: #3882F6;
+    margin: 30px 60px;
+    width: 50%;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.button2 {
+    border: 2px solid white;
+    background-color: #3882F6;
+    padding: 5px 12px;
+    border-radius: 5px;
+    color: #E5E7EB;
+    font-weight: 900;
+    font-size: 16px;
+}
+
+.signup-text p {
+    margin: 1px;
+    font-weight: 300;
+}
+
+.signup-text {
+    font-weight: bold;
 }

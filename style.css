@@ -47,9 +47,8 @@ body {
 }
 
 .image {
-    height: 120px;
-    width: 120px;
-    border: 2px solid #3882F6;
+    height: 150px;
+    width: 150px;
     border-radius: 12px;
 }
 
@@ -106,7 +105,7 @@ body {
     width: 400px;
     color: black;
     text-align: center;
-    border:1px solid #1F2937;
+    border:5px solid black;
 }
 .title h1 {
     font-weight:900;
@@ -176,6 +175,8 @@ footer {
 .box {
     width: 120px;
     height: 120px;
+    margin: 10px;
+    margin-bottom: 30px;
 }
 
 .caption {
@@ -184,6 +185,7 @@ footer {
 
 .signup {
     display: flex;
+
     border: 1px solid #3882F6;
     border-radius: 10px;
     justify-content: space-around;
